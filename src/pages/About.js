@@ -66,7 +66,7 @@ const About = () => {
               <ListItemIcon>
                 <CallIcon />
               </ListItemIcon>
-              <ListItemText>+1 (506) 476-1555</ListItemText>
+              <ListItemText>+1 (506) 476-0000</ListItemText>
             </ListItem>
             <ListItem>
               <ListItemIcon>
