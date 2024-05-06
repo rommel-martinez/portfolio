@@ -1,0 +1,119 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* border-bottom: 1px solid black; */
+    
+    background-color: #263238;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1!important;
+}
+
+.navbar .header{
+    color: #fff;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+.navbar img{
+    width: 70px;
+    padding-left: 40px;
+}
+
+.navbar .menus{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .menus li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.navbar .menus li a{
+    color: #fff;
+    margin: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar .menus li a:hover{
+    text-decoration: underline;
+}
+
+.navbar .menu-toggle{
+    float: right;
+    line-height: 90px;
+    margin-right: 20px;
+    display: none;
+}
+
+#drawer li a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1300px){
+    .navbar .menus{
+        display: none;
+    }
+
+    .navbar .menu-toggle{
+        color: #fff;
+        display: block;
+        cursor: pointer;
+    }     
+}
+
+@media only screen and (max-width:800px){
+    /* #close{
+        position: fixed;
+        width: 100%;
+        background-color: #000;
+        text-align: center;
+        left: -100%;
+        margin: 0;
+        padding: 0;
+
+        transition-property: left, right;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;    
+    } */
+
+    .navbar .menus li{
+        display: block;
+    }
+
+    .navbar .menus li a{
+        color: #fff;
+    }
+
+    /* #open{
+        position: fixed;
+        width: 100%;
+        background-color: #000;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        transition-property: left, right;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-delay: 0s;         
+    } */
+
+    .navbar .menu-toggle{
+        display: block;
+        cursor: pointer;
+    }  
+}

@@ -1,0 +1,16 @@
+.main{
+    height: 90vh;
+    width: 90%;
+    margin: 100px auto;
+}
+
+@media only screen and (max-width:1300px){
+    .main{
+        width: 90%;
+        margin: 120px auto;
+    }  
+}
+
+@media only screen and (max-width:800px){
+
+}

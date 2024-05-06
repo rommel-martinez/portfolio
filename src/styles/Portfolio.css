@@ -1,0 +1,17 @@
+#portfolio{
+    min-height: 90vh;
+    width: 80%;
+    margin: 130px auto;
+}
+
+@media only screen and (max-width:1300px){
+    #portfolio{
+        min-height: 90vh;
+        width: 90%;
+        margin: 130px auto;
+    }  
+}
+
+@media only screen and (max-width:800px){
+
+}

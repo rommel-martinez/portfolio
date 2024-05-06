@@ -1,0 +1,49 @@
+#about{
+    min-height: 90vh;
+    width: 80%;
+    margin: 130px auto;
+}
+
+#about img{
+    height: 500px;
+    border-radius: 20px;
+    border:3px solid #e2d8d8;
+    margin: 0 auto;
+    display: block;
+}
+
+#about #qua, #edu, #exp{
+    margin-top: 150px;
+}
+
+#about #timeline ::before{
+    display: none;
+}
+
+#about #timeline{
+    padding-top: 0px;
+}
+
+
+@media only screen and (max-width:1300px){
+    #about{
+        min-height: 90vh;
+        width: 90%;
+        margin: 130px auto;
+    }
+
+    #about img{
+        height: 500px;
+        border-radius: 20px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #about #info{
+        margin-top: 30px;
+    }    
+}
+
+@media only screen and (max-width:800px){
+
+}
